@@ -86,3 +86,7 @@ python3 manage.py migrate
 ```
 django-admin startapp app
 ```
+
+#### Step 6) Add app to Installed Apps in setting.py.
+
+![add_app](assests/add_app.png)
