@@ -153,3 +153,25 @@ python3 manage.py createsuperuser
 - With path todos/id we should be able to update and delete spesific todos.
 
 * Backend completed
+
+## FRONTEND
+
+### Installation
+
+#### Step 1) Create a React environment by Vite
+
+- The command below need to be run firstly:
+
+```
+npm create vite@latest
+```
+
+- I named project name: frontend, select framework: React, Select a variant Javascript
+
+- Then run commands below:
+
+```
+  cd frontend
+  npm install
+  npm run dev
+```
