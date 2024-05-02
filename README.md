@@ -90,3 +90,12 @@ django-admin startapp app
 #### Step 6) Add app to Installed Apps in setting.py.
 
 ![add_app](assests/add_app.png)
+
+#### Step7) Install Django rest_framework.
+
+```
+pip install djangorestframework
+```
+
+- Django rest frameworks needs to be added to Installed apps in setting.py
+  ![rest_framework](assests/rest_framework.png)
