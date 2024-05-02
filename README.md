@@ -67,3 +67,9 @@ source my_venv/bin/activate
 ```
 pip install django
 ```
+
+#### Step 3) Create project
+
+```
+django-admin startproject  todoapp .
+```
