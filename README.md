@@ -118,4 +118,7 @@ pip install django-cors-headers
 ### Creating Model with title, completed status and created time fields
 
 - After installation of all packages and tools the model of Todo object should be created.
-  ![Model](assests/model.png)
+
+### Create serializers
+
+- Serializers convert Todo model instances into JSON representations.
