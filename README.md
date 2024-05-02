@@ -109,9 +109,8 @@ pip install django-cors-headers
 ```
 
 - Cors headers needs to be added to Installed apps in setting.py.
-  ![corsheaders](assests/cors.png)
-
 - Add 'corsheaders.middleware.CorsMiddleware' to the MIDDLEWARE list in settings.py file. It's important to place it before the CommonMiddleware:
+  ![corsheaders](assests/cors.png)
 
 - Configure CORS settings in settings.py file to allow request from the server.
   ![cors_configuration](assests/cors_configure.png)
