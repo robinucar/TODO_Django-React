@@ -44,6 +44,8 @@
 
 # Getting Started
 
+## BACKEND
+
 ### Prerequisites
 
 For the application to succesfully run, you need to install the following packages:
@@ -123,9 +125,10 @@ pip install django-cors-headers
 
 - Serializers convert Todo model instances into JSON representations.
 
-#### Create API views
+#### Create API views CRUD REQUESTS. - GET, POST,PATCH,DELETE
 
 - Now we need to handle HTTP requests.
+  - In app/views.py we should handle GET, POST, PATCH, DELETE requests to make api works.
 
 #### Create urls in app.
 
@@ -146,3 +149,7 @@ python3 manage.py createsuperuser
 
 - And with "todos" path (http://127.0.0.1:8000/todos) we should be able to see all our todos with id, title, completed status and created time fields on json format.
   ![todos-json](assests/todos-json.png)
+
+- With path todos/id we should be able to update and delete spesific todos.
+
+* Backend completed
