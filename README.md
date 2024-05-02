@@ -61,3 +61,9 @@ python3 -m venv my_venv
 
 source my_venv/bin/activate
 ```
+
+#### Step 2) Afterward Django needs to be installed.
+
+```
+pip install django
+```
