@@ -51,3 +51,13 @@ For the application to succesfully run, you need to install the following packag
 - python3
 - Node.js
 - npm (Node Package Manager)
+
+#### Step 1) Create a Python Virtual Environment and Activate the Environment
+
+The code blocks below need to be run firstly:
+
+```
+python3 -m venv my_venv
+
+source my_venv/bin/activate
+```
