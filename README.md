@@ -52,6 +52,8 @@ For the application to succesfully run, you need to install the following packag
 - Node.js
 - npm (Node Package Manager)
 
+### Installation
+
 #### Step 1) Create a Python Virtual Environment and Activate the Environment
 
 The code blocks below need to be run firstly:
@@ -97,5 +99,19 @@ django-admin startapp app
 pip install djangorestframework
 ```
 
-- Django rest frameworks needs to be added to Installed apps in setting.py
+- Django rest frameworks needs to be added to Installed apps in setting.py.
   ![rest_framework](assests/rest_framework.png)
+
+#### Step 8) Install corsheaders CORS (Cross-Origin Resource Sharing) to make requests from the domain.
+
+```
+pip install django-cors-headers
+```
+
+- Cors headers needs to be added to Installed apps in setting.py.
+  ![corsheaders](assests/cors.png)
+
+- Add 'corsheaders.middleware.CorsMiddleware' to the MIDDLEWARE list in settings.py file. It's important to place it before the CommonMiddleware:
+
+- Configure CORS settings in settings.py file to allow request from the server.
+  ![cors_configuration](assests/cors_configure.png)
