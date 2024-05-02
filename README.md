@@ -115,10 +115,12 @@ pip install django-cors-headers
 - Configure CORS settings in settings.py file to allow request from the server.
   ![cors_configuration](assests/cors_configure.png)
 
-### Creating Model with title, completed status and created time fields
+#### Creating Model with title, completed status and created time fields
 
 - After installation of all packages and tools the model of Todo object should be created.
 
-### Create serializers
+#### Create serializers
 
 - Serializers convert Todo model instances into JSON representations.
+
+####
