@@ -114,3 +114,35 @@ pip install django-cors-headers
 
 - Configure CORS settings in settings.py file to allow request from the server.
   ![cors_configuration](assests/cors_configure.png)
+
+#### Creating Model with title, completed status and created time fields
+
+- After installation of all packages and tools the model of Todo object should be created.
+
+#### Create serializers
+
+- Serializers convert Todo model instances into JSON representations.
+
+#### Create API views
+
+- Now we need to handle HTTP requests.
+
+#### Create urls in app.
+
+- Create URL patterns for routing HTTP requests to the appropriate view functions.
+- Update the main urls in todoapp with the path which has been created in app.py.
+
+#### Make migration and create superuser to see application on admin browser.
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+python3 manage.py createsuperuser
+```
+
+- After creating superuser and update the admin.py file in the app directory we should be able to create data from the admin path.
+  ![admin-page](assests/admin.png)
+
+- And with "todos" path (http://127.0.0.1:8000/todos) we should be able to see all our todos with id, title, completed status and created time fields on json format.
+  ![todos-json](assests/todos-json.png)
