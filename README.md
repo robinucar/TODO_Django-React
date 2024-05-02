@@ -80,3 +80,9 @@ django-admin startproject  todoapp .
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
+
+#### Step 5) Create app module
+
+```
+django-admin startapp app
+```
