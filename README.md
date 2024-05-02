@@ -186,3 +186,14 @@ npm create vite@latest
 ```
 npm install axios
 ```
+
+### Develop Frontend
+
+#### Step 1) Create .env file.
+
+In the frontend directory create .env file and in .env file define VITE_API_URL and assign to django api.
+(VITE_API_URL =http://127.0.0.1:8000/todos)
+
+#### Step 2) Print data to the console.
+
+- Now we should be able to print data on the console using useEffect hook and axios.
