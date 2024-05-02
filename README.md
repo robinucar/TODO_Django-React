@@ -175,3 +175,14 @@ npm create vite@latest
   npm install
   npm run dev
 ```
+
+- Update cors.
+  In the todoapp/settings.py directory we need to update CORS_ALLOWED_ORIGINS to allow frond end connect with api.
+  ![cors-updated](assests/cors-updated.png)
+
+- Install axios.
+  Axios is a popular library used for making HTTP requests from the browser.
+
+```
+npm install axios
+```
