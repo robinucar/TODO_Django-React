@@ -51,3 +51,66 @@ For the application to succesfully run, you need to install the following packag
 - python3
 - Node.js
 - npm (Node Package Manager)
+
+### Installation
+
+#### Step 1) Create a Python Virtual Environment and Activate the Environment
+
+The code blocks below need to be run firstly:
+
+```
+python3 -m venv my_venv
+
+source my_venv/bin/activate
+```
+
+#### Step 2) Afterward Django needs to be installed.
+
+```
+pip install django
+```
+
+#### Step 3) Create project
+
+```
+django-admin startproject  todoapp .
+```
+
+#### Step 4) Make migration to create Database
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+#### Step 5) Create app module
+
+```
+django-admin startapp app
+```
+
+#### Step 6) Add app to Installed Apps in setting.py.
+
+![add_app](assests/add_app.png)
+
+#### Step7) Install Django rest_framework.
+
+```
+pip install djangorestframework
+```
+
+- Django rest frameworks needs to be added to Installed apps in setting.py.
+  ![rest_framework](assests/rest_framework.png)
+
+#### Step 8) Install corsheaders CORS (Cross-Origin Resource Sharing) to make requests from the domain.
+
+```
+pip install django-cors-headers
+```
+
+- Cors headers needs to be added to Installed apps in setting.py.
+- Add 'corsheaders.middleware.CorsMiddleware' to the MIDDLEWARE list in settings.py file. It's important to place it before the CommonMiddleware:
+  ![corsheaders](assests/cors.png)
+
+- Configure CORS settings in settings.py file to allow request from the server.
+  ![cors_configuration](assests/cors_configure.png)
