@@ -73,3 +73,10 @@ pip install django
 ```
 django-admin startproject  todoapp .
 ```
+
+#### Step 4) Make migration to create Database
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
