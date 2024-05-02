@@ -123,4 +123,6 @@ pip install django-cors-headers
 
 - Serializers convert Todo model instances into JSON representations.
 
-####
+#### Create API views
+
+- Now we need to handle HTTP requests.
