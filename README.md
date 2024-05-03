@@ -203,3 +203,28 @@ In the frontend directory create .env file and in .env file define VITE_API_URL 
 #### Step4) After testing all code working in frontend and backend if there is no error we can start writing our CSS.
 
 #### Step5) Client side completed, integrated with backend.
+
+## How to run project
+
+#### Step 1) Go to my github repository and clone the project
+
+```
+git clone https://github.com/robinucar/Zensai-Tech-Test.git
+```
+
+#### Step 2) Create Python environment and activated.
+
+```
+python3 -m venv my_venv
+
+source my_venv/bin/activate
+```
+
+#### Step 3) Go to front end directory , install packages, and run client side.
+
+```
+cd frontend
+npm install
+npm run dev
+
+```
