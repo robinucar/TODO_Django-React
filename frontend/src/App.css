@@ -1,0 +1,26 @@
+/* todo-container styles */
+body {
+  background-color: #e0d0d0; /* Soft background color */
+}
+.todo-container {
+  width: 80%; /* Adjust width as needed */
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f0f0f0; /* Soft background color */
+  border: 2px solid #ccc; /* Add border */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+}
+
+/* error message styles */
+.todo-container p {
+  color: black;
+}
+
+/* horizontal line styles */
+.todo-container hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}

@@ -153,3 +153,47 @@ python3 manage.py createsuperuser
 - With path todos/id we should be able to update and delete spesific todos.
 
 * Backend completed
+
+## FRONTEND
+
+### Installation
+
+#### Step 1) Create a React environment by Vite
+
+- The command below need to be run firstly:
+
+```
+npm create vite@latest
+```
+
+- I named project name: frontend, select framework: React, Select a variant Javascript
+
+- Then run commands below:
+
+```
+  cd frontend
+  npm install
+  npm run dev
+```
+
+- Update cors.
+  In the todoapp/settings.py directory we need to update CORS_ALLOWED_ORIGINS to allow frond end connect with api.
+  ![cors-updated](assests/cors-updated.png)
+
+- Install axios.
+  Axios is a popular library used for making HTTP requests from the browser.
+
+```
+npm install axios
+```
+
+### Develop Frontend
+
+#### Step 1) Create .env file.
+
+In the frontend directory create .env file and in .env file define VITE_API_URL and assign to django api.
+(VITE_API_URL =http://127.0.0.1:8000/todos)
+
+#### Step 2) Print data to the console.
+
+- Now we should be able to print data on the console using useEffect hook and axios.

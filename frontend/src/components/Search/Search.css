@@ -1,0 +1,33 @@
+/* todo-search container styles */
+.todo-search {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* form styles */
+.todo-search form {
+  display: flex;
+}
+
+/* input styles */
+.todo-search input[type='text'] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* button styles */
+.todo-search button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* error message styles */
+.todo-search small {
+  color: red;
+}
