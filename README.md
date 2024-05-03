@@ -197,3 +197,9 @@ In the frontend directory create .env file and in .env file define VITE_API_URL 
 #### Step 2) Print data to the console.
 
 - Now we should be able to print data on the console using useEffect hook and axios.
+
+#### Step3) After reading data on the console we should code our component TodoList and Search and then should complete the functionality of codes CRUD on the front end part.
+
+#### Step4) After testing all code working in frontend and backend if there is no error we can start writing our CSS.
+
+#### Step5) Client side completed, integrated with backend.
