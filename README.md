@@ -228,3 +228,25 @@ npm install
 npm run dev
 
 ```
+
+## Improvements
+
+### Testing
+
+- Unit test should be written for each frontend and backend
+  - For frontend I could use Jest, and React Testing Library
+  - For backend I could use pytest.
+
+### Bonus
+
+- Could not manage to Use implement GraphQL and Apollo Client because of time limitation.
+
+### Devops
+
+- Dockerize the app. Using github action to push up to Docker Hub.
+- Deploying app to Azure or Aws instances.
+- Improve security to use key wallets cloud futures
+
+### Database
+
+- Django is using SQLite by default but I could use PostgreSQL or and NoSQL databases such as MongoDB.
