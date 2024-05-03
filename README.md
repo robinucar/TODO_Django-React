@@ -229,6 +229,8 @@ npm run dev
 
 ```
 
+![Project](assests/completed_project.png)
+
 ## Improvements
 
 ### Testing
