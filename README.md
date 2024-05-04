@@ -219,8 +219,11 @@ python3 -m venv my_venv
 
 source my_venv/bin/activate
 ```
-
-#### Step 3) Go to front end directory , install packages, and run client side.
+#### Step3) Run the server.
+```
+python3 manage.py runserver
+```
+#### Step 4) Go to front end directory , install packages, and run client side.
 
 ```
 cd frontend
