@@ -245,6 +245,20 @@ npm run dev
 ### Bonus
 
 - Could not manage to Use implement GraphQL and Apollo Client because of time limitation.
+- However below steps would be my approach.
+- BACKEND
+  - Step1) Install graphene-django and add package to INSTALLED_APPS in setting.py.
+  - Step2) Create schema.py to define queries and mutations.
+  - Step3) Define graphql path in urls.py.
+  - Step4) Test queries with graphiq and also postman.
+  - Step5) Remove serializers.py and views.py http requests.
+- FRONTEND
+  - Step1) Install @apollo/client graphql.
+  - Step2) import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client' define client, setup uri and caches.
+  - Step3) Wrap App with ApolloProvider.
+  - Step4) Define queries and mutations.
+  - Step5) Fetch data with useQuery and useMutation hooks.
+  - Step6) Test the queries from browser.
 
 ### Devops
 
